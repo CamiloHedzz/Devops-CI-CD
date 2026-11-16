@@ -1,70 +1,70 @@
-# Prácticas de CI/CD — IBM
+# CI/CD Practice — IBM
 
-Repositorio de aprendizaje del curso **Continuous Integration and
-Continuous Delivery (CI/CD)** de IBM.
+Learning repository for IBM's **Continuous Integration and
+Continuous Delivery (CI/CD)** course.
 
-Aquí documento mis apuntes, ejercicios y prácticas para conectar
-los conceptos del curso con procesos de desarrollo y despliegue.
+This repository contains notes, exercises, and practical work
+connecting course concepts with development and deployment workflows.
 
-## Objetivos
+## Goals
 
-- Comprender los principios de integración y entrega continuas.
-- Practicar el trabajo con ramas, commits y pull requests.
-- Automatizar tareas de compilación y construcción.
-- Incorporar pruebas y controles ante errores.
-- Construir progresivamente un laboratorio reproducible de CI/CD.
+- Understand continuous integration and continuous delivery.
+- Practice working with branches, commits, and pull requests.
+- Automate compilation and container image builds.
+- Add tests and error handling.
+- Gradually build a reproducible CI/CD lab.
 
-## Progreso
+## Progress
 
-Último avance confirmado: **15 de noviembre de 2026**.
+Last confirmed update: **November 15, 2026**.
 
-- [x] Módulo 1: Introduction to CI/CD.
-- [ ] Módulo 2: Continuous Integration — en curso.
-- [ ] Completar los módulos restantes.
-- [ ] Implementar y documentar un laboratorio de CI/CD.
+- [x] Module 1: Introduction to CI/CD.
+- [ ] Module 2: Continuous Integration — in progress.
+- [ ] Complete the remaining modules.
+- [ ] Implement and document a CI/CD lab.
 
-Siguiente contenido: **Tools of Continuous Integration (CI)**.
+Next lesson: **Tools of Continuous Integration (CI)**.
 
-## Prácticas realizadas
+## Completed Practice
 
-### Análisis de un flujo de construcción y despliegue
+### Build and Deployment Workflow Analysis
 
-Ejercicio escrito sobre un proceso conocido:
+A written exercise based on a familiar workflow:
 
-1. Preparar una rama de trabajo.
-2. Modificar y compilar código.
-3. Construir una imagen de contenedor.
-4. Desplegar en un entorno de desarrollo.
-5. Comprobar el comportamiento mediante pruebas y logs.
-6. Solicitar revisión e integración mediante un pull request.
-7. Recuperar la versión anterior si el cambio falla.
+1. Prepare a working branch.
+2. Modify and compile the code.
+3. Build a container image.
+4. Deploy to a development environment.
+5. Verify behavior through functional tests and logs.
+6. Request review and integration through a pull request.
+7. Restore the previous version if the change fails.
 
-Se identificó una automatización Bash existente para compilar y
-construir imágenes, y se propuso mejorar la trazabilidad entre
-el commit, la compilación y la imagen generada.
+The exercise documented an existing Bash script used to automate
+compilation and image builds. A proposed improvement was to track
+the relationship between the source commit, build, and resulting image.
 
-Esta práctica fue de análisis y documentación; no incluyó
-la implementación de un pipeline nuevo.
+This was an analysis and documentation exercise.
+No new CI/CD pipeline was implemented during this practice.
 
-## Próximos pasos
+## Next Steps
 
-- Continuar el curso desde el último contenido completado.
-- Preparar un laboratorio personal pequeño.
-- Registrar el código de origen y la imagen generada.
-- Verificar que un fallo de compilación detenga la construcción.
-- Incorporar progresivamente estos pasos a un flujo de CI.
+- Continue the course from the last completed lesson.
+- Prepare a small personal lab.
+- Record the source commit and generated image reference.
+- Verify that compilation failures stop the image build.
+- Gradually incorporate these steps into a CI workflow.
 
-## Criterio de documentación
+## Documentation Approach
 
-Cada práctica distinguirá:
+Each practice will document:
 
-- Qué se implementó o ejecutó.
-- Cómo se comprobó el resultado.
-- Qué falló y cómo se resolvió.
-- Qué permanece como propuesta o trabajo pendiente.
+- What was implemented or executed.
+- How the result was verified.
+- What failed and how it was resolved.
+- What remains a proposal or future task.
 
-Los ejemplos utilizarán código y datos de laboratorio.
+Examples will use lab code and data.
 
-## Curso
+## Course
 
 [Continuous Integration and Continuous Delivery (CI/CD) — IBM](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd)
